@@ -3,7 +3,8 @@ import React from 'react'
 const Form = () => {
   return (
     <div>
-        <p className='text-3xl text-pink-500 text-center '>From </p>
+        <p className='text-3xl text-pink-600 text-center '> fill the From </p>
+        <p>.....</p>
    
     <input type="text" placeholder="Enter Name" value={name} onChange={(e) => setName(e.target.value)}/>
     <input type="number" placeholder="Enter Age" value={age} onChange={(e) => setAge(e.target.value)}
