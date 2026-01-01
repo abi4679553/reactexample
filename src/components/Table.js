@@ -17,8 +17,8 @@ const Table = () => {
 
   return (
     <div>
-      <h1 className="text-2xl text-blue-700 m-3 text-center ">Hello fill  the form </h1>
-      <h2 className=" text-xl p-3 text-center ">Form to Table</h2>
+     
+      <h2 className="  p-3 text-center  text-blue-600  text-2xl ">Form to Table</h2>
 
 
       <form onSubmit={handleSubmit}>
